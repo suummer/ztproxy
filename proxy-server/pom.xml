@@ -39,7 +39,7 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>../distribution/proxy-server-domain-${project.version}/lib</outputDirectory>
+                            <outputDirectory>../distribution/${build.finalName}/lib</outputDirectory>
                             <overWriteReleases>false</overWriteReleases>
                             <overWriteSnapshots>false</overWriteSnapshots>
                             <overWriteIfNewer>true</overWriteIfNewer>
@@ -83,7 +83,7 @@
                         </goals>
                         <configuration>
                             <encoding>UTF-8</encoding>
-                            <outputDirectory>../distribution/proxy-server-domain-${project.version}/conf</outputDirectory>
+                            <outputDirectory>../distribution/${build.finalName}/conf</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>src/main/resources</directory>
@@ -106,7 +106,7 @@
                         </goals>
                         <configuration>
                             <encoding>UTF-8</encoding>
-                            <outputDirectory>../distribution/proxy-server-domain-${project.version}/bin</outputDirectory>
+                            <outputDirectory>../distribution/${build.finalName}/bin</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>src/main/resources</directory>
@@ -126,7 +126,7 @@
                         </goals>
                         <configuration>
                             <encoding>UTF-8</encoding>
-                            <outputDirectory>../distribution/proxy-server-domain-${project.version}/lib</outputDirectory>
+                            <outputDirectory>../distribution/${build.finalName}/lib</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>target</directory>
