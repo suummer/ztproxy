@@ -1,1 +1,1 @@
-java -jar ../lib/proxy-client.jar
+nohup java -jar ../lib/proxy-client.jar 2>&1 &
